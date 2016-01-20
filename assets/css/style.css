@@ -1,0 +1,158 @@
+/* Universal Selectors */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+li {
+    display: inline;
+}
+
+
+/* Universal Bootstrap */
+
+nav.navbar {
+    margin-bottom: 0px;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+}
+
+.well {
+    background: rgba(0,0,0, 0.2);
+    color: #fff;
+    text-shadow: -1px -1px 0 gray;
+    border-color: black;
+    padding-bottom: 2em;
+}
+
+/* Universal by Class Declaration */
+
+.body-text {
+   text-shadow: -1px -1px 0 gray;
+}
+
+/* Specific to Section (Nested) */
+
+.p-title {
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('http://i.imgur.com/u2XOz5h.jpg?1');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.title-contact {
+    width: 100%;
+}
+
+.title-fa-chevron-circle-down {
+    padding-top: 100px; 
+    color: rgba(84, 84, 84, 0.85);
+}
+
+ul.title-contact-buttons {
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline;
+    margin: 0;
+    padding: 0 50px;
+}
+
+.title-header {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.p-whoami {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('http://i.imgur.com/mGpVlvr.jpg?1');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.whoami-block-1 {
+    display: flex;
+	flex-direction: column;
+    padding: 50px;
+}
+
+.p-whoami-info {
+    display: flex;
+    align-items: center;
+}
+
+.whoami-block-2 {
+    display: flex;
+	flex-direction: column;
+}
+
+.whoami-align {
+    display: flex;
+    align-self: center;
+}
+
+.whoami-block-2-profile-pic {
+	background-color: #3df;
+	width: 15em;
+	height: 15em;
+	border-radius: 50%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.2);
+	margin: auto;  
+}
+
+.p-projects {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,.4)), url('http://i.imgur.com/GOeoVfj.jpg?1');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.projects-sec-header {
+    margin-bottom: 3em;
+}
+
+.p-projects-img {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+}
+
+.p-projects p {
+    font-style: italic;
+}
+
+.p-contact {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('http://i.imgur.com/u4c1Jyo.jpg?1');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.contact-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.contact-buttons {
+    float: none;
+    margin: 0 auto;
+}
+
+.contact-button {
+    margin-bottom: 20px;
+    border-radius: 10px !important;
+}
+
+.p-footer {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    padding: 50px;
+}
